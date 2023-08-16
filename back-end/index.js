@@ -3,6 +3,7 @@ const app =express()
 const port=5000;
 const cors = require('cors')
 const db = require('./data-base/MySql/index')
+
 app.use(express.json())
 app.use(cors())
 
