@@ -1,6 +1,6 @@
 const express = require("express")
 const app =express()
-const port=5000;
+const PORT = process.env.PORT || 5000;
 const cors = require('cors')
 const db = require('./data-base/MySql/index')
 
@@ -115,6 +115,6 @@ app.put('/actors/:id', async (req, res) => {
     res.status(500).json({ error: 'An error occurred while updating .' });
   }
 });
-app.listen(port,()=>{
-    console.log(`Server is running on port ${port}`);
+app.listen( PORT,()=>{
+    console.log(`Server is running on port ${PORT}`);
 })
