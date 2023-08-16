@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FavMov/static/css/main.322a909b.css",
+    "main.js": "/FavMov/static/js/main.5d227e2a.js",
+    "static/media/favmovlogrv.png": "/FavMov/static/media/favmovlogrv.a17f0b75b2621e2a4083.png",
+    "static/media/favmovlog.png": "/FavMov/static/media/favmovlog.1f7c3f3a62541774beb4.png",
+    "index.html": "/FavMov/index.html",
+    "main.322a909b.css.map": "/FavMov/static/css/main.322a909b.css.map",
+    "main.5d227e2a.js.map": "/FavMov/static/js/main.5d227e2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.322a909b.css",
+    "static/js/main.5d227e2a.js"
+  ]
+}
